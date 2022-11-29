@@ -172,6 +172,7 @@ function alterar(event, collection) {
         .then(() => {
             alert('✅ Registro alterado com sucesso!')
             document.getElementById('formCadastro').reset()
+            document.getElementById('id').value = ''
         })
         .catch(error => {
             console.log(error.code)
