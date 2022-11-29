@@ -1,0 +1,24 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(0, 128, 21, 0.1), rgba(0, 128, 21, 0.996));
+    color: rgb(1, 100, 14);
+  }
+
+  #fsl{
+    color:rgb(35, 83, 41);
+    text-align: center;
+  }
+
+  .letras{
+    color:white;
+    text-align: center;
+  }
+
+  .fundo{
+    background-color: rgb(173, 223, 155);
+  }
